@@ -92,7 +92,6 @@ public class GestionDeTienda {
 					break;
 				}	
 			}while(!otroCortar);
-			i++;
 		}while(!cortar && i<1000);
 		if(tienda.crearVentaDeProductosOServicios(cliente, vendedor, vendibles)) {
 			mostrarPorPantalla("Exito");
